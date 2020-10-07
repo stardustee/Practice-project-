@@ -31,7 +31,7 @@ October 7 2020
       cancelButton.addEventListener("click", (event) => {
         event.preventDefault();
         if (confirm("Are you sure?")) {
-          location.href = "/home";
+          location.href = "/Home";
         }
       });
     }
