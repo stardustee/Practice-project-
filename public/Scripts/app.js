@@ -1,3 +1,12 @@
+/*
+     
+Sydney Huang 
+301068497
+October 7 2020
+
+*/
+
+
 (function () {
   function Start() {
     console.log("App Started...");
