@@ -22,10 +22,10 @@ October 7 2020
 
       sendButton.addEventListener("click", (event) => {
         event.preventDefault();
-        console.info(`Full Name   : ${fullName.value}
-          Email Address  : ${emailAddress.value}
-          Contact Number : ${contactNumber.value}
-          Your Message   : ${message.value}`);
+        console.info(`full Name   : ${fullName.value}
+          email Address  : ${emailAddress.value}
+          contact Number : ${contactNumber.value}
+          your Message   : ${message.value}`);
       });
 
       cancelButton.addEventListener("click", (event) => {
