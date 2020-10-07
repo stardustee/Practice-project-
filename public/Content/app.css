@@ -1,0 +1,11 @@
+/* your custom css goes here */
+
+#Gradient {
+    height: 200px;
+    background-color:palevioletred; /* For browsers that do not support gradients */
+    background-image: linear-gradient(white,palevioletred );
+  }
+
+  #body {
+    background-color: pink;
+  }
