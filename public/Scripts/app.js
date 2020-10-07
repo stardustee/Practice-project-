@@ -11,6 +11,8 @@ October 7 2020
   function Start() {
     console.log("App Started...");
 
+    $("./Pictures/Resume.pdf").click(function(){ /* code to download? */ });
+
     if (document.title === "Contact") {
       let sendButton = document.getElementById("SendButton");
       let cancelButton = document.getElementById("CancelButton");
