@@ -7,27 +7,27 @@ router.get("/index", function (req, res, next) {
 });
 
 /* GET home page. */
-router.get("/aboutme", function (req, res, next) {
+router.get("/Aboutme", function (req, res, next) {
   res.render("Aboutme", { title: "About Me" });
 });
 
 /* GET Products page. */
-router.get("/projects", function (req, res, next) {
+router.get("/Projects", function (req, res, next) {
   res.render("Projects", { title: "Products" });
 });
 
 /* GET Services page. */
-router.get("/services", function (req, res, next) {
+router.get("/Services", function (req, res, next) {
   res.render("Services", { title: "Services" });
 });
 
 /* GET About page. */
-router.get("/home", function (req, res, next) {
+router.get("/Home", function (req, res, next) {
   res.render("index", { title: "Home" });
 });
 
 /* GET Contact page. */
-router.get("/contact", function (req, res, next) {
+router.get("/Contact", function (req, res, next) {
   res.render("Contact", { title: "Contact" });
 });
 
