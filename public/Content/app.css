@@ -6,12 +6,11 @@ Sydney Huang
 October 7 2020
 
 */
-#Gradient {
-    height: 200px;
-    background-color:palevioletred; /* For browsers that do not support gradients */
-    background-image: linear-gradient(white,palevioletred );
-  }
-
-  #body {
-    background-color: pink;
-  }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #a8edca;
+}
+.jumbotron {
+  background-color: #d4ffe9;
+}
