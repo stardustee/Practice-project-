@@ -1,9 +1,7 @@
-/*
-     
+/*    
 Sydney Huang 
 301068497
 October 7 2020
-
 */
 
 
