@@ -22,13 +22,17 @@ router.get("/Services", function (req, res, next) {
 });
 
 /* GET About page. */
-router.get("/Home", function (req, res, next) {
+router.get("/index", function (req, res, next) {
   res.render("index", { title: "Home" });
 });
 
 /* GET Contact page. */
 router.get("/Contact", function (req, res, next) {
   res.render("Contact", { title: "Contact" });
+});
+
+router.get("/Login", function (req, res, next) {
+  res.render("Login", { title: "Login" });
 });
 
 module.exports = router;
