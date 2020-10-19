@@ -25,7 +25,7 @@ October 7 2020
           contact Number : ${contactNumber.value}
           your Message   : ${message.value}`);
       });
-
+      
       cancelButton.addEventListener("click", (event) => {
         event.preventDefault();
         if (confirm("Are you sure?")) {
